@@ -58,7 +58,7 @@ Execute bash command
 docker exec -it <container_id> /bin/bash
 ```
 
-### Batch Layer
+## Batch Layer
 
 <img src="img/batch-layer.JPG" />
 
@@ -88,7 +88,7 @@ Create table customers_cln at Cloudera HUE > Hive Editor
 
 ### End Batch Layer
 
-### Speed Layer
+## Speed Layer
 
 <img src="img/speed-layer.JPG" />
 
@@ -141,7 +141,7 @@ Insert data by JOIN customer_cln and transactions_cln at Cloudera HUE > Hive Edi
 
 <img src="img/loyalty1.JPG" />
 
-### Workflow with Apache Oozie
+## Workflow with Apache Oozie
 Copy file [insert_hive_loyalty.sql](https://github.com/chanontv/hadoop-end-to-end/blob/main/data/sql/insert_hive_loyalty.sql) to hadoop 
 ```
 hadoop fs -put /data/sql/insert_hive_loyalty.sql /tmp/file/
@@ -163,3 +163,4 @@ Run Coordinator
 
 <img src="img/oozie-5.JPG" />
 
+### Finish 
